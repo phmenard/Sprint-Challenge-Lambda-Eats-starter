@@ -1,0 +1,85 @@
+.pizzaForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: @main-content-width;
+    background-color: @form-backround;
+    border-radius: @global-radiaus;
+    padding: @global-padding;
+    
+}
+
+ .specialSauce {
+    
+    width: 100%;  
+    padding: @global-padding; 
+    
+}
+
+h1 {
+    font-size: @h1-font-size;
+    font-weight: bold;
+    
+}
+
+
+
+section {
+    
+    .sectionHeader {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: @margin-top;
+        background-color: @component-background;
+        padding: @section-padding;
+        height: auto;
+
+        .placeOrder {
+            display: flex;
+            
+            background-color: red;
+            
+
+            input {
+                width: 60%;
+                margin-right: 10%;
+            }
+        }
+    }
+
+    h2 {
+        font-size: @h2-font-size;
+        font-weight: bold;
+        margin-top: @margin-top;
+    }
+
+   
+}
+
+select {
+    margin-bottom: 5px;
+    width: 25%
+}
+
+.availableToppings {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: red;
+
+    .topping {
+        display: flex;
+        align-items: center;
+        padding: 3%;
+    }
+
+    
+}
+
+.specialInstructons {
+    input {
+        width: 100%;
+        margin-top: @margin-top;
+    }
+}
